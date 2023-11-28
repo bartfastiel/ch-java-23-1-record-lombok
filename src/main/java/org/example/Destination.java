@@ -1,8 +1,10 @@
 package org.example;
 
+import java.math.BigDecimal;
+
 public record Destination(
         String name,
-        int price,
+        BigDecimal price,
         String country
 ) {
 }
