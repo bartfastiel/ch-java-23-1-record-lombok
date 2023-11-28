@@ -18,5 +18,7 @@ public class Main {
         BigDecimal x = new BigDecimal("0.1");
         System.out.println(x.add(new BigDecimal("0.2")));
 
+        new Course(Subject.MATH);
+
     }
 }
