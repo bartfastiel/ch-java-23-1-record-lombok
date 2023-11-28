@@ -2,6 +2,7 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        InternationalTravel tripToRedSea = new InternationalTravel();
+        System.out.println(tripToRedSea.getPrice());
     }
 }
