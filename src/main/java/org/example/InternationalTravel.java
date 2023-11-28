@@ -1,11 +1,5 @@
 package org.example;
 
-public class InternationalTravel extends Travel implements HasPrice {
+public class InternationalTravel extends Travel {
 
-    private int price = 643;
-
-    @Override
-    public int getPrice() {
-        return price;
-    }
 }
